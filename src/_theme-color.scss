@@ -65,34 +65,34 @@ $surface-switch-thumb: #fff;
 $on-surface: on($surface-z0);
 
 $primary-on-light: #1967d2;
-$primary-on-dark: #8ab4f8;
+$primary-on-dark: #81a1c1;
 $primary: $primary-on-light;
 $on-primary: on($primary);
 
 $error-on-light: #d93025;
-$error-on-dark: #f28b82;
+$error-on-dark: #bf616a;
 $error: $error-on-light;
 $on-error: on($error);
 
 $warning-on-light: #f9ab00;
-$warning-on-dark: #fdd663;
+$warning-on-dark: #ebcb8b;
 $warning: $warning-on-light;
 $on-warning: on($warning);
 
 $success-on-light: #1e8e3e;
-$success-on-dark: #81c995;
+$success-on-dark: #a3be8c;
 $success: $success-on-light;
 $on-success: on($success);
 
 $visited-on-light: #9334e6;
-$visited-on-dark: #c58af9;
+$visited-on-dark: #b48ead;
 $visited: $visited-on-light;
 $on-visited: on($visited);
 
-$system: #212121;
+$system: #0d1319;
 $on-system: on($system);
 
-$tooltip: rgba(#616161, .9);
+$tooltip: rgba(#333c40, .9);
 $on-tooltip: on($tooltip);
 
 $scrim: rgba(black, .6);
@@ -101,21 +101,21 @@ $on-scrim: on($scrim);
 $scrim-alt: rgba(black, .3);
 $on-scrim-alt: on($scrim-alt);
 
-$panel: #212121;
+$panel: #0d1319;
 $on-panel: on($panel);
 
 // for Unity panel which doesn't allow translucent colors
 $panel-solid: $panel;
 $on-panel-solid: on($panel-solid);
 
-$titlebar: #424242;
-$titlebar-backdrop: #303030;
+$titlebar: #1e2731;
+$titlebar-backdrop: #151d25;
 $on-titlebar: on($titlebar);
 
 $titlebar-indicator: currentcolor;
 
 @if theme.$dark-theme {
-  $surface-z0: #121212;
+  $surface-z0: #000507;
   $surface-z1: color.mix(white, $surface-z0, 5%);
   $surface-z8: color.mix(white, $surface-z0, 12%);
   $surface-switch-thumb: color.mix(white, $surface-z0, 60%);
